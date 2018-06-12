@@ -379,12 +379,12 @@ autocmd FileType php nnoremap <C-p> :call pdv#DocumentWithSnip()<CR>
 autocmd FileType php setlocal omnifunc=phpcd#CompletePHP
 
 " Disable arrow movement, resize splits instead.
-if get(g:, 'elite_mode')
-	nnoremap <Up>    :resize +2<CR>
-	nnoremap <Down>  :resize -2<CR>
-	nnoremap <Left>  :vertical resize +2<CR>
-	nnoremap <Right> :vertical resize -2<CR>
-endif
+"if get(g:, 'elite_mode')
+"	nnoremap <Up>    :resize +2<CR>
+"	nnoremap <Down>  :resize -2<CR>
+"	nnoremap <Left>  :vertical resize +2<CR>
+"	nnoremap <Right> :vertical resize -2<CR>
+"endif
 
 map <silent> <LocalLeader>ws :highlight clear ExtraWhitespace<CR>
 
